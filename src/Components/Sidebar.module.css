@@ -1,0 +1,120 @@
+.sidebar {
+  width: 25%;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 93%;
+}
+
+h2 {
+  height: 30px;
+}
+
+.groupbutton {
+  height: 45px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.modalbutton {
+  height: 35px;
+  margin-bottom: 6px;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+li {
+  padding: 5px;
+  height: 30px;
+  list-style: none;
+  padding: 5px;
+  height: 46px;
+  margin: 5px;
+  font-family: Roboto;
+  font-size: 20.67px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.413px;
+}
+
+/* .modalcontainer{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width:400px ;
+    height: 300px;
+} */
+
+.modal {
+  background: white;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: 25%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.modalinput {
+  display: flex;
+}
+
+label {
+  margin: 5px;
+}
+
+.nameinput {
+  flex: 1;
+  border-radius: 25px;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    width: 86%;
+  }
+
+  li {
+    height: 44px;
+    font-size: 21.67px;
+    letter-spacing: 1.413px;
+  }
+
+  .modal {
+    padding: 7px;
+    top: 50%;
+    left: 2%;
+    width: 91%;
+  }
+}

@@ -1,0 +1,28 @@
+.container {
+  height: 99%;
+}
+
+textarea {
+  width: 99%;
+  height: 93%;
+  border: 2px solid yellow;
+}
+
+@media only screen and (max-width: 768px) {
+  textarea {
+    width: 97%;
+    height: 95%;
+  }
+
+  .addButton {
+    position: relative;
+    top: -37px;
+    left: 84%;
+  }
+}
+
+.addButton {
+  position: relative;
+  top: -37px;
+  left: 90%;
+}

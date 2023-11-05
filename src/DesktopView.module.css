@@ -1,0 +1,5 @@
+.desktopView {
+  display: flex;
+  height: 100vh;
+  margin: none;
+}
